@@ -1,10 +1,51 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <title>Dayly Magic Trick</title>
-  </head>
-  <body>
-    <h1>Dayly Magic Trick</h1>
-    <p>This is my first web page.</p>
-  </body>
-</html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Daily Magic Trick</title>
+    <link rel="stylesheet" href="/s/vizba/styles.css?v=2">
+</head>
+<body>
+    <div class="stars" id="stars"></div>
+    
+    <div class="container">
+        <header>
+            <h1>Daily Magic</h1>
+            <p class="subtitle">Learn a new trick every day</p>
+            <div class="date-badge" id="date"></div>
+        </header>
+        
+        <div class="section">
+            <div class="section-header">
+                <h2 class="section-title">Watch the Performance</h2>
+            </div>
+            <p class="trick-name" id="trickName">The Impossible Card Prediction</p>
+            <a href="#" target="_blank" id="performanceLink">
+                <div class="video-card">
+                    <div class="play-icon"></div>
+                </div>
+            </a>
+        </div>
+        
+        <div class="section">
+            <div class="section-header">
+                <h2 class="section-title">Learn the Secret</h2>
+            </div>
+            <div id="tutorialContent" class="tutorial-content">
+                <p>Something went wrong</p>
+            </div>
+            <a href="#" target="_blank" class="watch-button" id="tutorialLink">
+                Watch Tutorial Video
+            </a>
+        </div>
+        
+        <footer>
+            <p>Made with curiosity and a bit of sleight of hand</p>
+            <a href="https://github.com/yourusername/daily-magic" target="_blank" class="github-link">View on GitHub</a>
+        </footer>
+    </div>
+
+    <script src="/s/vizba/script.js?v=2"></script>
+</body>
+</html>s
